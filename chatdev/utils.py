@@ -73,6 +73,6 @@ def escape_string(value):
     value = value.replace("\n", " ")
     return value
 
-        return func(*args, **kwargs)
+    return func(*args, **kwargs)
 
     return wrapper
